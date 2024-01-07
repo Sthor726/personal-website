@@ -1,3 +1,3 @@
-# Sthor726.github.io
+# samuelthorson.github.io
 
 Personal Website for Samuel Thorson
