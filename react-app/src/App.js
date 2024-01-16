@@ -1,21 +1,27 @@
-import logo from "./logo.svg";
-import Navbar from "./Navbar.js";
-import Footer from "./Footer.js";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "./App.css";
+import Home from "./components/Home";
+import About from "./components/About";
+import Resume from "./components/Resume.js";
+import Error from "./components/Error";
+import Navigation from "./components/Navigation.js";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Navbar />
-      </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>This is the main part of the website</p>
-      </header>
-      <div>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={Home()} exact />
+          <Route path="/resume" element={Resume()} />
+          <Route path="/about" element={About()} />
+          <Route element={Error} />
+        </Routes>
         <Footer />
-      </div>
+      </BrowserRouter>
     </div>
   );
 }
