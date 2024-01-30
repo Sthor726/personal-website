@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
+import Home from "./components/Home.js";
+import About from "./components/About.js";
 import Resume from "./components/Resume.js";
-import Error from "./components/Error";
+import Error from "./components/Error.js";
 import Navigation from "./components/Navigation.js";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
