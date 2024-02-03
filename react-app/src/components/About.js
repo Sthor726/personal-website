@@ -13,9 +13,9 @@ function About() {
         <p class=" text-left font-sans font-bold text-5xl pt-20 mt-20 mr-auto w-fit text-white h-auto">
           This website is a react application made using Javascript and tailwind
           CSS. <br /> <br />
-          Hosted on Github.
+          Hosted on AWS.
         </p>
-        <p class="font-sans text-2xl pt-20 mt-20 font-bold mr-auto w-fit text-white h-auto underline">
+        <p class="font-sans text-2xl pt-20 mt-20 font-bold mr-auto w-fit text-white h-auto hover:underline">
           <a href="https://github.com/Sthor726/Sthor726.github.io">
             Link to code repo!
           </a>
