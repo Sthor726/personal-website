@@ -8,12 +8,14 @@ import Resume from "./components/Resume.js";
 import Error from "./components/Error.js";
 import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
+import ScrollToTop from "./ScrollToTop.js";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navigation />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={Home()} exact />
           <Route path="/resume" element={Resume()} />

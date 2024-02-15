@@ -15,8 +15,11 @@ function About() {
           CSS. <br /> <br />
           Hosted on AWS.
         </p>
-        <p class="font-sans text-2xl pt-20 mt-20 font-bold mr-auto w-fit text-white h-auto hover:underline">
-          <a href="https://github.com/Sthor726/Sthor726.github.io">
+        <p class="font-sans text-2xl pt-20 mt-20 font-bold mr-auto w-fit text-white h-auto">
+          <a
+            href="https://github.com/Sthor726/Sthor726.github.io"
+            class="hover:underline"
+          >
             Link to code repo!
           </a>
         </p>
