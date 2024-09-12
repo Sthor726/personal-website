@@ -16,11 +16,11 @@ function Resume() {
             <br />
             <span className="text-gray-700">
               College of Science and Engineering, University of Minnesota, Twin
-              Cities <br /> 2022 - 2026
+              Cities <br /> 2022 - 2025
             </span>
             <ul className="pl-8">
               <li className="text-base">Major: Computer Science</li>
-              <li className="text-base">GPA: 3.739</li>
+              <li className="text-base">GPA: 3.669</li>
             </ul>
           </li>
           <li className="mb-6">

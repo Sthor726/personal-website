@@ -9,14 +9,14 @@ function Home() {
         class="container flex-col pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
       >
         <h2 class="font-sans text-2xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          Hello, im
+          Hello, I'm
           <br />
         </h2>
         <h1 class="font-sans text-7xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
           Samuel Thorson <br />
         </h1>
         <h2 class="font-sans text-3xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          A sophmore at <br /> the University of Minnesota
+          A junior at <br /> the University of Minnesota
           <br />
         </h2>
       </div>
@@ -28,7 +28,7 @@ function Home() {
           Contact Information
         </h2>
         <p class=" text-left font-sans text-xl pt-10 mt-10 ml-32 mr-auto w-fit text-gray-700 h-auto">
-          Phone: 779-707-5305 <br /> Email: sthor726@gmail.com
+          Phone: 779-707-5305 <br /> Email: thors648@umn.edu
         </p>
       </div>
       <div
