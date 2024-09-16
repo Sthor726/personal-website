@@ -2,175 +2,162 @@ import React from "react";
 
 function Resume() {
   return (
-    <div id="home" class=" container flex-col mr-auto w-fit justify-end">
+    <div id="home" className="container flex-col mr-auto w-fit justify-end">
       <div
         id="description"
-        class="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
+        className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
       >
-        <h2 class="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Education
         </h2>
         <ul className="list-none text-left ml-36 mt-32">
           <li className="mb-6">
-            <span className="font-bold text-xl">Bachelor of science</span>
+            <span className="font-bold text-xl">Bachelor of Science</span>
             <br />
             <span className="text-gray-700">
-              College of Science and Engineering, University of Minnesota, Twin
-              Cities <br /> 2022 - 2025
+              College of Science and Engineering, University of Minnesota, Twin Cities
+              <br /> May 2025
             </span>
             <ul className="pl-8">
               <li className="text-base">Major: Computer Science</li>
-              <li className="text-base">GPA: 3.669</li>
+              <li className="text-base">GPA: 3.699 / 4.00</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        id="projects"
+        className="container flex-col pt-10 mt-10 ml-32 mr-auto h-auto w-fit justify-end"
+      >
+        <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
+          Projects
+        </h1>
+        <ul className="list-none text-left mt-32">
+          <li className="mb-6">
+            <span className="font-bold text-2xl text-white">
+              Personal Website - www.samuelthorson.com
+            </span>
+            <br />
+            <span className="text-gray-700">January 2024</span>
+            <ul className="pl-8">
+              <li className="text-base text-white">
+                Created a portfolio website using a React frontend and Tailwind CSS.
+              </li>
+              <li className="text-base text-white">Hosted on AWS.</li>
             </ul>
           </li>
           <li className="mb-6">
-            <span className="font-bold text-xl">High School Diploma</span>
-            <br />
-            <span className="text-gray-700">
-              Edina High School <br /> 2018 - 2022
-            </span>
-            <ul className="pl-8">
-              <li className="text-base">GPA: 3.92</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div
-        id="title"
-        class="container flex-col pt-10 mt-10 ml-32 mr-auto h-auto pb-32 w-fit justify-end"
-      >
-        <h1 class="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
-          Projects <br />
-        </h1>
-        <ul className="list-none text-left mt-32">
-          <li className="">
-            <span className="font-bold text-2xl text-white ">
-              Crypto Discord Bot
+            <span className="font-bold text-2xl text-white">
+              Drone Delivery Simulation - University of Minnesota, CSCI 3081W
             </span>
             <br />
-            <a
-              href="https://github.com/BenPankratz/CryptoDiscordBot"
-              class="hover:underline text-green-100 mt-32 font-bold"
-            >
-              Link to code repo
-            </a>
+            <span className="text-gray-700">January 2024</span>
             <ul className="pl-8">
-              <li className="text-base text-white ">
-                Utilized Discord API to allow users to track crypto currencies.
+              <li className="text-base text-white">
+                Implemented Data Collection system to record statistics regarding deliveries.
               </li>
-              <li className="text-base text-white ">
-                Created a SQL database to organize which currencies certain
-                users are interested in.
+              <li className="text-base text-white">
+                Utilized Git version control and Docker for deployment.
               </li>
-              <li className="text-base text-white ">
-                Collaborated with 2 other developers and organized development
-                through Git version control.
+              <li className="text-base text-white">
+                Facilitated sprint planning sessions to maintain project transparency within an Agile framework.
               </li>
             </ul>
           </li>
         </ul>
       </div>
+
       <div
-        id="description"
-        class="mt-64 w-screen h-auto pb-32 shadow-inner shadow-gray-400 bg-white"
+        id="work-experience"
+        className="mt-64 w-screen h-auto pb-32 shadow-inner shadow-gray-400 bg-white"
       >
-        <h2 class="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Work Experience
         </h2>
         <ul className="list-none text-left ml-36 mt-32">
           <li className="mb-6">
-            <span className="font-bold text-xl">Caribou Coffee - Barista</span>
+            <span className="font-bold text-xl">University of Minnesota - Teaching Assistant, CSE 1001 - First Year Experience</span>
             <br />
-            <span className="text-gray-700">May 2023 - Present</span>
-            <ul className="pl-8">
-              <li className="text-base">
-                Worked in a team of 5-10 to prepare a variety of hot and cold
-                beverages.
-              </li>
-              <li className="text-base">
-                Maintained a safe and healthy work environment by following
-                organization standards and sanitation regulations.
-              </li>
-            </ul>
-          </li>
-
-          <li className="mb-6">
-            <span className="font-bold text-xl">
-              University of Minnesota - Teaching Assistant, CSE 1001 - First
-              Year Experience
-            </span>
-            <br />
-            <span className="text-gray-700">August 2023 - December 2023</span>
+            <span className="text-gray-700">August 2023 - Present</span>
             <ul className="pl-8">
               <li className="text-base">
                 Graded weekly assignments for a class of 40 students.
               </li>
               <li className="text-base">
-                Hosted weekly office hours and worked with the professor to
-                maintain and improve class material.
+                Hosted weekly office hours and worked with the professor to maintain and improve class material.
               </li>
               <li className="text-base">
-                Wrote emails to students regarding opportunities within the
-                college of science and engineering.
+                Wrote emails to students regarding opportunities within the college of science and engineering.
               </li>
             </ul>
           </li>
 
           <li className="mb-6">
-            <span className="font-bold text-xl">
-              Braemar Golf Course - Player Services, On-Course Attendant
-            </span>
+            <span className="font-bold text-xl">University of Minnesota - Teaching Assistant, CSCI 2021 - Machine Architecture</span>
             <br />
-            <span className="text-gray-700">May 2020 - September 2022</span>
+            <span className="text-gray-700">September 2024 - Present</span>
             <ul className="pl-8">
               <li className="text-base">
-                Set up golf events on the course, cleaned golf carts and outdoor
-                areas, and assisted and directed customers.
+                Conducted lab sessions of ~20 students.
               </li>
               <li className="text-base">
-                Checked in golfers, monitored the pace of play, and kept golfers
-                on the correct timetables.
+                Held weekly office hours to support students with homework and projects.
               </li>
               <li className="text-base">
-                Taught ~5 new hires the responsibilities of the job and
-                procedures at the golf course.
+                Graded homework assignments and projects.
+              </li>
+            </ul>
+          </li>
+
+          <li className="mb-6">
+            <span className="font-bold text-xl">Caribou Coffee - Barista</span>
+            <br />
+            <span className="text-gray-700">May 2023 - September 2024</span>
+            <ul className="pl-8">
+              <li className="text-base">
+                Worked in a team of 5-10 to prepare a variety of hot and cold beverages.
+              </li>
+              <li className="text-base">
+                Maintained a safe and healthy work environment by following organization standards and sanitation regulations.
               </li>
             </ul>
           </li>
         </ul>
       </div>
+
       <div
         id="extracurricular"
-        class="container flex-col h-auto pb-32 pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
+        className="container flex-col h-auto pb-32 pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
       >
-        <h1 class="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
-          Extracurricular Experience <br />
+        <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
+          Extracurricular Experience
         </h1>
         <ul className="list-none text-left mt-32">
           <li className="mb-6">
-            <span className="font-bold text-2xl text-white ">
+            <span className="font-bold text-2xl text-white">
               Science and Engineering Student Board - Member
             </span>
             <br />
+            <span className="text-gray-700">September 2022 - May 2024</span>
             <ul className="pl-8">
-              <li className="text-base text-white ">
-                Worked in a group of ~10 students to organize student events to
-                help science and engineering students get involved on campus.
+              <li className="text-base text-white">
+                Worked in a group of ~10 students to organize student events to help science and engineering students get involved on campus.
               </li>
-              <li className="text-base text-white ">
-                Organized the charity race “Freezin' for a Reason 5K” in 2022 &
-                2023
+              <li className="text-base text-white">
+                Organized the “Freezin’ for a Reason 5K” in 2022 & 2023 with charity Be The Match.
               </li>
             </ul>
           </li>
         </ul>
       </div>
+
       <div
         id="steps"
-        class=" w-screen h-auto pt-3 pb-3 shadow-md shadow-gray-400 bg-white"
+        className="w-screen h-auto pt-3 pb-3 shadow-md shadow-gray-400 bg-white"
       >
         <a
-          class="py-auto px-6 hover:underline text-slate-800 mt-32 font-bold"
+          className="py-auto px-6 hover:underline text-slate-800 mt-32 font-bold"
           href="/images/resume.png"
           download
         >
