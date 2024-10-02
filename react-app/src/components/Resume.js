@@ -42,9 +42,10 @@ function Resume() {
             <span className="text-gray-700">January 2024</span>
             <ul className="pl-8">
               <li className="text-base text-white">
-                Created a portfolio website using a React frontend and Tailwind CSS.
+                Developed a fully responsive portfolio website using a React frontend and styled with Tailwind CSS, providing a clean, modern, and user-friendly interface.
               </li>
-              <li className="text-base text-white">Hosted on AWS.</li>
+              <li className="text-base text-white">Hosted the website using AWS Amplify, enabling continuous deployment and scalability with integrated CI/CD pipelines.
+              </li>
             </ul>
           </li>
           <li className="mb-6">
@@ -55,10 +56,13 @@ function Resume() {
             <span className="text-gray-700">January 2024</span>
             <ul className="pl-8">
               <li className="text-base text-white">
-                Implemented Data Collection system to record statistics regarding deliveries.
+                Developed a data collection system to capture and analyze statistics regarding deliveries.
               </li>
               <li className="text-base text-white">
-                Utilized Git version control and Docker for deployment.
+                Utilized Git version control to ensure version consistency and streamline collaborative development across the team.
+              </li>
+              <li className="text-base text-white">
+                Deployed containerized application using Docker to ensure consistent environment replication for testing and deployment.
               </li>
               <li className="text-base text-white">
                 Facilitated sprint planning sessions to maintain project transparency within an Agile framework.
@@ -116,7 +120,7 @@ function Resume() {
             <span className="text-gray-700">May 2023 - September 2024</span>
             <ul className="pl-8">
               <li className="text-base">
-                Worked in a team of 5-10 to prepare a variety of hot and cold beverages.
+                Worked in a team of 5-10 to prepare a variety of beverages.
               </li>
               <li className="text-base">
                 Maintained a safe and healthy work environment by following organization standards and sanitation regulations.
