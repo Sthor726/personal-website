@@ -16,7 +16,7 @@ function Home() {
           Samuel Thorson <br />
         </h1>
         <h2 class="font-sans text-3xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          A junior at <br /> the University of Minnesota
+          A senior at <br /> the University of Minnesota
           <br />
         </h2>
       </div>
