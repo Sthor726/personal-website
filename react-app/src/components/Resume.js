@@ -20,7 +20,7 @@ function Resume() {
             </span>
             <ul className="pl-8">
               <li className="text-base">Major: Computer Science</li>
-              <li className="text-base">GPA: 3.699 / 4.00</li>
+              <li className="text-base">GPA: 3.74 / 4.00</li>
             </ul>
           </li>
         </ul>
@@ -86,13 +86,16 @@ function Resume() {
             <span className="text-gray-700">August 2023 - Present</span>
             <ul className="pl-8">
               <li className="text-base">
-                Graded weekly assignments for a class of 40 students.
+                Scheduled meetings with students to assist students with their transition to college.
               </li>
               <li className="text-base">
                 Hosted weekly office hours and worked with the professor to maintain and improve class material.
               </li>
               <li className="text-base">
-                Wrote emails to students regarding opportunities within the college of science and engineering.
+                Led in class activities to teach skills such as time management.
+              </li>
+              <li className="text-base">
+                Prepared presentations and graded assignments for a class of 40 students.
               </li>
             </ul>
           </li>
@@ -103,13 +106,11 @@ function Resume() {
             <span className="text-gray-700">September 2024 - Present</span>
             <ul className="pl-8">
               <li className="text-base">
-                Conducted lab sessions of ~20 students.
-              </li>
+                Conducted lab sessions of ~20 students to assist students with topics such as file IO and memory management.              </li>
               <li className="text-base">
-                Held weekly office hours to support students with homework and projects.
-              </li>
+                Held weekly office hours to support students with homework and projects concerning C and Assembly programming.              </li>
               <li className="text-base">
-                Graded homework assignments and projects.
+                Graded exams and projects in collaboration with other TA's.
               </li>
             </ul>
           </li>
