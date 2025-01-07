@@ -1,6 +1,7 @@
-# personal-website
+# Personal Website
 
 Personal Website for Samuel Thorson
 
-- made with react and tailwind
-- hosted on aws at www.samuelthorson.com
+- Made with React.js
+- Styled with Tailwind CSS
+- Hosted through AWS Amplify
