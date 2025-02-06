@@ -28,7 +28,7 @@ function Home() {
           Contact Information
         </h2>
         <p class=" text-left font-sans text-xl pt-10 mt-10 ml-32 mr-auto w-fit text-gray-700 h-auto">
-          Phone: 779-707-5305 <br /> Email: thors648@umn.edu
+          Phone: 779-707-5305 <br /> Email: sthor726@gmail.com
         </p>
       </div>
       <div

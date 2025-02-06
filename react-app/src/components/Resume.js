@@ -106,11 +106,11 @@ function Resume() {
             <span className="text-gray-700">September 2024 - Present</span>
             <ul className="pl-8">
               <li className="text-base">
-                Conducted lab sessions of ~20 students to assist students with topics such as file IO and memory management.              </li>
+                Led lab sessions of ~20 students to assist students with topics such as file IO and memory management.              </li>
               <li className="text-base">
                 Held weekly office hours to support students with homework and projects concerning C and Assembly programming.              </li>
               <li className="text-base">
-                Graded exams and projects in collaboration with other TA's.
+              Collaborated with other TAs to grade projects and exams.
               </li>
             </ul>
           </li>
@@ -121,7 +121,7 @@ function Resume() {
             <span className="text-gray-700">May 2023 - September 2024</span>
             <ul className="pl-8">
               <li className="text-base">
-                Worked in a team of 5-10 to prepare a variety of beverages.
+                Worked in a team of 5-10 to prepare a variety of beverages in a fast paced environment.
               </li>
               <li className="text-base">
                 Maintained a safe and healthy work environment by following organization standards and sanitation regulations.
