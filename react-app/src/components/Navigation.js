@@ -19,6 +19,12 @@ function Navigation() {
           </h2>
         </NavLink>
         <h2 class="font-sans font-normal text-white"> | </h2>
+        <NavLink to="Projects">
+          <h2 class="font-sans font-normal text-white float-left hover:underline">
+            Projects
+          </h2>
+        </NavLink>
+        <h2 class="font-sans font-normal text-white"> | </h2>
         <NavLink to="About">
           <h2 class="font-sans font-normal mr-4 text-white hover:underline">
             About this site

@@ -50,22 +50,19 @@ function Resume() {
           </li>
           <li className="mb-6">
             <span className="font-bold text-2xl text-white">
-              Drone Delivery Simulation - University of Minnesota, CSCI 3081W
+              Raspberry Pi Google Calendar Display
             </span>
             <br />
-            <span className="text-gray-700">January 2024</span>
+            <span className="text-gray-700">March 2025</span>
             <ul className="pl-8">
               <li className="text-base text-white">
-                Developed a data collection system to capture and analyze statistics regarding deliveries.
+              Developed a Python-based application to display Google Calendar events on a Raspberry Pi using an LCD screen.
               </li>
               <li className="text-base text-white">
-                Utilized Git version control to ensure version consistency and streamline collaborative development across the team.
+              Integrated Google Calendar API to fetch and display the upcoming calendar events.
               </li>
               <li className="text-base text-white">
-                Deployed containerized application using Docker to ensure consistent environment replication for testing and deployment.
-              </li>
-              <li className="text-base text-white">
-                Facilitated sprint planning sessions to maintain project transparency within an Agile framework.
+              Used Git for version control to manage code changes and project history.
               </li>
             </ul>
           </li>
