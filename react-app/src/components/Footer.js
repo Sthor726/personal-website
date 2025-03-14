@@ -6,7 +6,7 @@ function Footer() {
       id="footer"
       class="bg-white container flex flex-column min-w-full gap-5 h-40 text-slate-900 text-serif font-normal shadow-xl text-xl mb-0"
     >
-      <a href="mailto: sthor726@gmail.com" class="my-auto mx-auto">
+      <a href="mailto:sthor726@gmail.com" class="my-auto mx-auto">
         Email me
       </a>
       <a href="https://github.com/Sthor726" class="my-auto mx-auto">

@@ -6,7 +6,7 @@ function Home() {
     <div id="home" class="min-h-screen h-fit">
       <div
         id="title"
-        class="container flex-col pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
+        class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end"
       >
         <h2 class="font-sans text-2xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
           Hello, I'm
@@ -24,11 +24,12 @@ function Home() {
         id="description"
         class="mt-64 w-screen h-[600px] shadow-inner shadow-gray-400 bg-white"
       >
-        <h2 class="font-sans text-6xl font-bold pt-52 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 class="font-sans text-6xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Contact Information
         </h2>
-        <p class=" text-left font-sans text-xl pt-10 mt-10 ml-32 mr-auto w-fit text-gray-700 h-auto">
-          Phone: 779-707-5305 <br /> Email: sthor726@gmail.com
+        <p class=" text-left font-sans text-xl pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit text-gray-700 h-auto">
+        LinkedIn: <a href="https://www.linkedin.com/in/samuel-thorson-1a8a5522b/" className="text-blue-500 hover:underline">https://www.linkedin.com/in/samuel-thorson-1a8a5522b/</a>
+        <br /> Email: <a href="mailto:sthor726@gmail.com" className="text-blue-500 hover:underline">sthor726@gmail.com</a>
         </p>
       </div>
       <div

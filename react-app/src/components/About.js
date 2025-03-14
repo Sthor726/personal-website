@@ -5,7 +5,7 @@ function About() {
     <div id="about" class="min-h-screen h-fit">
       <div
         id="title"
-        class="container flex-col pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
+        class="container flex-col pt-10 mt-10 md:ml-32 mr-auto w-fit justify-end"
       >
         <h2 class="font-sans text-4xl font-bold pt-1 mt-1 mb-30 mr-auto w-fit text-white h-auto text-left">
           About

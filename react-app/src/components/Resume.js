@@ -7,10 +7,10 @@ function Resume() {
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Education
         </h2>
-        <ul className="list-none text-left ml-36 mt-32">
+        <ul className="list-none text-left md:ml-36 mt-32">
           <li className="mb-6">
             <span className="font-bold text-xl">Bachelor of Science</span>
             <br />
@@ -28,7 +28,7 @@ function Resume() {
 
       <div
         id="projects"
-        className="container flex-col pt-10 mt-10 ml-32 mr-auto h-auto w-fit justify-end"
+        className="container flex-col pt-10 mt-10 md:ml-32 mr-auto h-auto w-fit justify-end"
       >
         <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
           Projects
@@ -73,10 +73,10 @@ function Resume() {
         id="work-experience"
         className="mt-64 w-screen h-auto pb-32 shadow-inner shadow-gray-400 bg-white"
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Work Experience
         </h2>
-        <ul className="list-none text-left ml-36 mt-32">
+        <ul className="list-none text-left md:ml-36 mt-32">
           <li className="mb-6">
             <span className="font-bold text-xl">University of Minnesota - Teaching Assistant, CSE 1001 - First Year Experience</span>
             <br />
@@ -130,7 +130,7 @@ function Resume() {
 
       <div
         id="extracurricular"
-        className="container flex-col h-auto pb-32 pt-10 mt-10 ml-32 mr-auto w-fit justify-end"
+        className="container flex-col h-auto pb-32 pt-10 mt-10 md:ml-32 mr-auto w-fit justify-end"
       >
         <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
           Extracurricular Experience
