@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div id="home" class="min-h-screen h-fit">
+    <div id="home" class="min-h-screen h-fit overflow-x-hidden">
       <div
         id="title"
         class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end"

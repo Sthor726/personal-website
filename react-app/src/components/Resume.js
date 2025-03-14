@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div id="home" className="container flex-col mr-auto w-fit justify-end">
+    <div id="resume" class="min-h-screen h-fit overflow-x-hidden">
       <div
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"

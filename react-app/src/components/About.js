@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" class="min-h-screen h-fit">
+    <div id="about" class="min-h-screen h-fit w-fit overflow-x-hidden">
       <div
         id="title"
         class="container flex-col pt-10 mt-10 md:ml-32 mr-auto w-fit justify-end"

@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div id="projects" className=" min-h-screen h-fit">
+    <div id="projects" className=" min-h-screen h-fit overflow-x-hidden">
       <div
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
