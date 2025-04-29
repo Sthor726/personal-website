@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Home() {
+
   return (
     <div id="home" class="min-h-screen h-fit overflow-x-hidden">
       <div
         id="title"
-        class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end"
-      >
+        class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end">
         <h2 class="font-sans text-2xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
           Hello, I'm
           <br />

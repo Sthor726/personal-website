@@ -16,7 +16,7 @@ function Resume() {
             <br />
             <span className="text-gray-700">
               College of Science and Engineering, University of Minnesota, Twin Cities
-              <br /> May 2025
+              <br /> September 2022 - May 2025
             </span>
             <ul className="pl-8">
               <li className="text-base">Major: Computer Science</li>
@@ -39,7 +39,7 @@ function Resume() {
               Personal Website - www.samuelthorson.com
             </span>
             <br />
-            <span className="text-gray-700">January 2024</span>
+            <span className="text-gray-200">January 2024</span>
             <ul className="pl-8">
               <li className="text-base text-white">
                 Developed a fully responsive portfolio website using a React frontend and styled with Tailwind CSS, providing a clean, modern, and user-friendly interface.
@@ -53,7 +53,7 @@ function Resume() {
               Raspberry Pi Google Calendar Display
             </span>
             <br />
-            <span className="text-gray-700">March 2025</span>
+            <span className="text-gray-200">March 2025</span>
             <ul className="pl-8">
               <li className="text-base text-white">
               Developed a Python-based application to display Google Calendar events on a Raspberry Pi using an LCD screen.
@@ -77,40 +77,46 @@ function Resume() {
           Work Experience
         </h2>
         <ul className="list-none text-left md:ml-36 mt-32">
-          <li className="mb-6">
-            <span className="font-bold text-xl">University of Minnesota - Teaching Assistant, CSE 1001 - First Year Experience</span>
-            <br />
-            <span className="text-gray-700">August 2023 - Present</span>
-            <ul className="pl-8">
-              <li className="text-base">
-                Scheduled meetings with students to assist students with their transition to college.
-              </li>
-              <li className="text-base">
-                Hosted weekly office hours and worked with the professor to maintain and improve class material.
-              </li>
-              <li className="text-base">
-                Led in class activities to teach skills such as time management.
-              </li>
-              <li className="text-base">
-                Prepared presentations and graded assignments for a class of 40 students.
-              </li>
-            </ul>
-          </li>
 
-          <li className="mb-6">
-            <span className="font-bold text-xl">University of Minnesota - Teaching Assistant, CSCI 2021 - Machine Architecture</span>
-            <br />
-            <span className="text-gray-700">September 2024 - Present</span>
-            <ul className="pl-8">
-              <li className="text-base">
-                Led lab sessions of ~20 students to assist students with topics such as file IO and memory management.              </li>
-              <li className="text-base">
-                Held weekly office hours to support students with homework and projects concerning C and Assembly programming.              </li>
-              <li className="text-base">
-              Collaborated with other TAs to grade projects and exams.
-              </li>
-            </ul>
-          </li>
+        <li className="mb-6">
+          <span className="font-bold text-xl">University of Minnesota</span>
+          <br />
+          <ul className="pl-6 mt-2 space-y-4">
+            <li>
+              <span className="font-semibold text-lg">Teaching Assistant, CSCI 1133 - Introduction to Computing and Programming Concepts</span>
+              <br />
+              <span className="text-gray-700">September 2024 - Present</span>
+              <ul className="pl-8 list-disc">
+                <li className="text-base">Led lab sessions to assist students with basic programming concepts in Python.</li>
+                <li className="text-base">Held weekly office hours to clarify homework and lab concepts.</li>
+                <li className="text-base">Collaborated with other TAs to grade homework and exams.</li>
+              </ul>
+            </li>
+
+            <li>
+              <span className="font-semibold text-lg">Teaching Assistant, CSCI 2021 - Machine Architecture</span>
+              <br />
+              <span className="text-gray-700">September 2024 - December 2024</span>
+              <ul className="pl-8 list-disc">
+                <li className="text-base">Led lab sessions of ~20 students to assist students with topics such as file IO and memory management.</li>
+                <li className="text-base">Held weekly office hours to support students with homework and projects concerning C and Assembly programming.</li>
+                <li className="text-base">Collaborated with other TAs to grade projects and exams.</li>
+              </ul>
+            </li>
+
+            <li>
+              <span className="font-semibold text-lg">Teaching Assistant, CSE 1001 - First Year Experience</span>
+              <br />
+              <span className="text-gray-700">August 2023 - December 2024</span>
+              <ul className="pl-8 list-disc">
+                <li className="text-base">Scheduled meetings with students to assist students with their transition to college.</li>
+                <li className="text-base">Hosted weekly office hours and worked with the professor to maintain and improve class material.</li>
+                <li className="text-base">Led in-class activities to teach skills such as time management.</li>
+                <li className="text-base">Prepared presentations and graded assignments for a class of 40 students.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
           <li className="mb-6">
             <span className="font-bold text-xl">Caribou Coffee - Barista</span>
@@ -141,7 +147,7 @@ function Resume() {
               Science and Engineering Student Board - Member
             </span>
             <br />
-            <span className="text-gray-700">September 2022 - May 2024</span>
+            <span className="text-gray-200">September 2022 - May 2024</span>
             <ul className="pl-8">
               <li className="text-base text-white">
                 Worked in a group of ~10 students to organize student events to help science and engineering students get involved on campus.
@@ -160,7 +166,7 @@ function Resume() {
       >
         <a
           className="py-auto px-6 hover:underline text-slate-800 mt-32 font-bold"
-          href="/images/resume.png"
+          href="/images/Resume-Samuel-Thorson.pdf"
           download
         >
           Download my Resume

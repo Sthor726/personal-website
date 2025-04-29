@@ -2,7 +2,8 @@ import React from "react";
 
 function Projects() {
   return (
-    <div id="projects" className=" min-h-screen h-fit overflow-x-hidden">
+    <div id="projects" 
+    className=" min-h-screen h-fit overflow-x-hidden">
       <div
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
@@ -20,7 +21,7 @@ function Projects() {
           </p>
           <h3 className="font-bold text-xl mt-6">Key Features</h3>
           <ul className="pl-8 text-base">
-            <li><strong>Google Calendar Integration</strong>: The project uses the Google Calendar API to fetch upcoming events directly from my Google Calendar. By using a service account and OAuth2 authentication,<br></br>
+            <li><strong>Google Calendar Integration</strong>: The project uses the Google Calendar API to fetch upcoming events directly from my Google Calendar. By using a service account and OAuth2 authentication,
                  it ensures secure and seamless access to event data.</li>
             <li><strong>Dynamic Event Display</strong>: The display dynamically updates every 5 seconds to show the current time, the day of the week, and the details of upcoming events. 
                 If there are no upcoming events, a fallback message "No upcoming events." is shown.</li>
