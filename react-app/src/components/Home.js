@@ -16,7 +16,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch("http://18.117.100.19:80/subscribe", {
+      const response = await fetch("http://18.117.100.19:2000/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

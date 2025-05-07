@@ -6,7 +6,7 @@ const { sendEmail } = require('./mail.js');
 require('dotenv').config();
 
 const app = express();
-const PORT = 80;
+const PORT = 2000;
 
 app.use(cors());
 app.use(bodyParser.json());
