@@ -3,9 +3,10 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const sqlite3 = require('sqlite3').verbose();
 const { sendEmail } = require('./mail.js');
+const dotenv = require('dotenv');
 
 const app = express();
-const PORT = 8000;
+const PORT = 80;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -63,6 +64,6 @@ app.delete('/unsubscribe', (req, res) => {
   });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`Newsletter backend running at http://localhost:${PORT}`);
-});
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Newsletter backend running at http://0.0.0.0:${PORT}`);
+  });

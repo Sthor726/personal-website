@@ -16,7 +16,7 @@ function Unsubscribe() {
     }
 
     try {
-      const response = await fetch("http://localhost:8000/unsubscribe", {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}:80/unsubscribe`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
