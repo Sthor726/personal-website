@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 function Home() {
+  const [successMessage, setSuccessMessage] = React.useState(false);
   const [email, setEmail] = React.useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,6 +27,10 @@ function Home() {
     } catch (error) {
       console.error("Error:", error);
     }
+    // Show success message
+    setSuccessMessage(true);
+    // Clear the email input
+    setEmail(""); 
   };
 
   return (
@@ -70,7 +77,7 @@ function Home() {
       </div>
       <div
         id="title"
-        class="pt-34 w-screen h-[600px] shadow-inner shadow-gray-400 bg-white">
+        class="pt-34 w-screen h-[700px] shadow-inner shadow-gray-400 bg-white">
         <h2 class="font-sans text-5xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
           Subscribe to my newsletter! <br />
         </h2>
@@ -93,6 +100,16 @@ function Home() {
             <span className="font-sans font-bold text-xl">Subscribe!</span> 
           </button>
         </form>
+        {successMessage && (
+          <div className="mt-3 mr-auto ml-32 bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500 flex justify-start">
+            <p>Thank you for subscribing!</p>
+          </div>
+        )}
+         <NavLink to="Unsubscribe">
+          <span class="font-sans font-normal text-slate-700 ml-32 mt-10 mr-auto flex justify-start hover:underline">
+            tired of getting emails? click here to unsubscribe.
+          </span>
+         </NavLink>
       </div>
     </div>
   );
