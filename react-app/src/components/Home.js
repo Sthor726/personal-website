@@ -1,5 +1,4 @@
 import React from "react";
-require("dotenv").config();
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
@@ -17,7 +16,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}:80/subscribe`, {
+      const response = await fetch("http://18.117.100.19:80/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

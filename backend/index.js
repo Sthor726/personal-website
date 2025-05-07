@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const sqlite3 = require('sqlite3').verbose();
 const { sendEmail } = require('./mail.js');
-const dotenv = require('dotenv');
+require('dotenv').config();
 
 const app = express();
 const PORT = 80;
