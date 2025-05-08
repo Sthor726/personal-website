@@ -6,7 +6,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const sendEmail = (to, subject, body) => {
   const msg = {
     to: to,
-    from: 'sthor726@gmail.com',  // Replace with your email address
+    from: 'no-reply@samuelthorson.com',  
     subject: subject,
     text: body,
   };
