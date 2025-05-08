@@ -7,7 +7,8 @@ function Resume() {
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+">
           Education
         </h2>
         <ul className="list-none text-left md:ml-36 mt-32">
@@ -39,12 +40,16 @@ function Resume() {
               Personal Website - www.samuelthorson.com
             </span>
             <br />
-            <span className="text-gray-200">January 2024</span>
+            <span className="text-gray-200">January 2024 - Current</span>
             <ul className="pl-8">
               <li className="text-base text-white">
-                Developed a fully responsive portfolio website using a React frontend and styled with Tailwind CSS, providing a clean, modern, and user-friendly interface.
+              Developed a fully responsive personal portfolio website using React.js and Tailwind CSS to showcase projects and
+              career updates.
               </li>
-              <li className="text-base text-white">Hosted the website using AWS Amplify, enabling continuous deployment and scalability with integrated CI/CD pipelines.
+              <li className="text-base text-white">Built a Node.js and Express backend with an integrated SQLite database to manage newsletter subscriptions.
+              </li>
+              <li className="text-base text-white">
+              Deployed the frontend via AWS Amplify and hosted the backend on an EC2 instance for scalable and reliable access.
               </li>
             </ul>
           </li>
@@ -73,7 +78,8 @@ function Resume() {
         id="work-experience"
         className="mt-64 w-screen h-auto pb-32 shadow-inner shadow-gray-400 bg-white"
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+">
           Work Experience
         </h2>
         <ul className="list-none text-left md:ml-36 mt-32">
@@ -160,18 +166,6 @@ function Resume() {
         </ul>
       </div>
 
-      <div
-        id="steps"
-        className="w-screen h-auto pt-3 pb-3 shadow-md shadow-gray-400 bg-white"
-      >
-        <a
-          className="py-auto px-6 hover:underline text-slate-800 mt-32 font-bold"
-          href="/images/Resume-Samuel-Thorson.pdf"
-          download
-        >
-          Download my Resume
-        </a>
-      </div>
     </div>
   );
 }

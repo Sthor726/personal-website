@@ -8,11 +8,13 @@ function Projects() {
         id="description"
         className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32"
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-emerald-700 to-stone-600
+">
           Projects
         </h2>
         <hr className="border-1 border-gray-400 md:ml-32 md:mr-16 mt-8"></hr>
-        <h3 className="font-sans font-bold text-4xl md:ml-32 md:mr-16 mt-16 w-fit text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h3 className="font-sans font-bold text-4xl md:ml-32 md:mr-16 mt-16 w-fit text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-emerald-700 to-stone-600
+">
           Raspberry Pi Smart Clock
         </h3>
         <div className="text-left md:ml-36 md:mr-16 mt-16 text-gray-700">

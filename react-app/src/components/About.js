@@ -13,7 +13,8 @@ function About() {
         <p class=" text-left font-sans font-bold text-4xl pt-20 mt-20 mr-auto w-fit text-white h-auto">
           This website is a react application made using Javascript and tailwind
           CSS. <br /> <br />
-          Hosted on AWS.
+          Utilizes an Express/Node.js backend and <br />
+          SQLite database to store user emails. 
         </p>
         <p class="font-sans text-2xl pt-20 mt-20 font-bold mr-auto w-fit text-white h-auto">
           <a

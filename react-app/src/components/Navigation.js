@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div
       id="navbar"
-      class="container min-w-full flex flex-row gap-5 mx-0 mt-4 pb-5 items-center justify-between"
+      class="container min-w-full flex flex-row gap-5 mx-0 mt-4 pb-4 items-center justify-between"
     >
       <NavLink to="/">
         <h2 class="font-sans font-normal text-white ml-5 mr-auto hover:underline">

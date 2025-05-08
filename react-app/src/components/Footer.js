@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div
       id="footer"
-      class="bg-white container flex flex-column min-w-full gap-5 h-40 text-slate-900 text-serif font-normal shadow-xl text-xl mb-0"
+      class="bg-white container flex flex-column min-w-full gap-5 h-auto pt-10 pb-10 text-slate-900 text-serif font-normal shadow-xl text-xl"
     >
       <a href="mailto:sthor726@gmail.com" class="my-auto mx-auto">
         Email me

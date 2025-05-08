@@ -46,7 +46,8 @@ function Unsubscribe() {
 
   return (
     <div className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-white pb-32">
-      <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+      <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+">
         Unsubscribe
       </h2>
 
@@ -60,7 +61,8 @@ function Unsubscribe() {
         />
         <button
           type="submit"
-          className="mt-10 ml-4 p-3 bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500 text-white rounded-3xl w-50 flex justify-center items-center transition-all ease-out duration-500 group hover:bg-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-700 hover:via-emerald-600 hover:to-teal-500 hover:border-slate-700 border-2 border-white"
+          className="mt-10 ml-4 p-3 bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+ text-white rounded-3xl w-50 flex justify-center items-center transition-all ease-out duration-500 group hover:bg-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-700 hover:via-slate-500 hover:to-emerald-700 hover:border-stone-700 border-2 border-white"
         >
           <span className="font-sans font-bold text-xl">Remove me from mailing list</span>
         </button>
@@ -68,7 +70,8 @@ function Unsubscribe() {
 
 
       {successMessage && (
-        <div className="mt-3 mr-auto ml-32 bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500 flex justify-start">
+        <div className="mt-3 mr-auto ml-32 bg-clip-text bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+ flex justify-start">
           <p>You have successfully unsubscribed. Routing you back to home page...</p>
         </div>
 

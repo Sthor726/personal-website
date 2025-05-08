@@ -47,7 +47,7 @@ function Home() {
           Samuel Thorson <br />
         </h1>
         <h2 class="font-sans text-3xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          A senior at <br /> the University of Minnesota
+          Software Engineer <br /> interested in embedded systems, web development, and cybersecurity.
           <br />
         </h2>
       </div>
@@ -55,7 +55,7 @@ function Home() {
         id="description"
         class="mt-64 w-screen h-[600px] shadow-inner shadow-gray-400 bg-white"
       >
-        <h2 class="font-sans text-6xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 class="font-sans text-6xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-emerald-700 to-stone-600">
           Contact Information
         </h2>
         <p class=" text-left font-sans text-xl pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit text-gray-700 h-auto">
@@ -65,7 +65,7 @@ function Home() {
       </div>
       <div
         id="steps"
-        class=" w-screen h-[500px] shadow-md shadow-gray-400 bg-slate-800"
+        class=" w-screen h-[500px] shadow-md shadow-gray-400 bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800"
       >
         <h2 class="font-sans font-bold text-4xl pt-32 m-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-slate-50">
           Check out my Resume!
@@ -79,10 +79,12 @@ function Home() {
       <div
         id="title"
         class="pt-34 w-screen h-[700px] shadow-inner shadow-gray-400 bg-white">
-        <h2 class="font-sans text-5xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 class="font-sans text-5xl font-bold pt-52 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-emerald-700 to-stone-600
+">
           Subscribe to my newsletter! <br />
         </h2>
-        <h2 class="font-sans text-2xl font-bold pt-10 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500">
+        <h2 class="font-sans text-2xl font-bold pt-10 ml-4 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-emerald-700 to-stone-600
+">
           Get updates on my projects and more.
           <br />
         </h2>
@@ -96,18 +98,20 @@ function Home() {
           />
           <button
             type="submit"
-            className="mt-10 ml-4 p-3 bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500 text-white rounded-3xl w-32 flex justify-center items-center transition-all ease-out duration-500 group hover:bg-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-green-700 hover:via-emerald-600 hover:to-teal-500 hover:border-slate-700 border-2 border-white"
+            className="mt-10 ml-4 p-3 bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+ text-white rounded-3xl w-32 flex justify-center items-center transition-all ease-out duration-500 group hover:bg-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-slate-600 hover:via-emerald-800 hover:to-teal-500 hover:border-stone-700 border-2 border-white"
           >
             <span className="font-sans font-bold text-xl">Subscribe!</span> 
           </button>
         </form>
         {successMessage && (
-          <div className="mt-3 mr-auto ml-32 bg-clip-text bg-gradient-to-r from-green-700 via-emerald-600 to-teal-500 flex justify-start">
+          <div className="mt-3 mr-auto ml-32 bg-clip-text bg-gradient-to-r from-slate-700 via-emerald-900 to-stone-800
+ flex justify-start">
             <p>Thank you for subscribing!</p>
           </div>
         )}
-         <NavLink to="Unsubscribe">
-          <span class="font-sans font-normal text-slate-700 ml-32 mt-10 mr-auto flex justify-start hover:underline">
+         <NavLink to="Unsubscribe" className="justify-between mr-auto">
+          <span class="font-sans font-normal text-slate-700 ml-32 mt-10 flex justify-start hover:underline">
             tired of getting emails? click here to unsubscribe.
           </span>
          </NavLink>
