@@ -16,7 +16,7 @@ function Unsubscribe() {
     }
 
     try {
-      const response = await fetch("http://18.117.100.19:2000/unsubscribe", {
+      const response = await fetch(`${process.env.REACT_APP_IP}/unsubscribe`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

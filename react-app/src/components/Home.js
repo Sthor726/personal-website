@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 
+
 function Home() {
   const [successMessage, setSuccessMessage] = React.useState(false);
   const [email, setEmail] = React.useState("");
@@ -16,7 +17,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch("http://18.117.100.19:2000/subscribe", {
+      const response = await fetch(`${process.env.REACT_APP_IP}/subscribe`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
