@@ -16,7 +16,7 @@ function Unsubscribe() {
     }
 
     try {
-      const response = await fetch("https://api.samuelthorson.com:2000/unsubscribe", {
+      const response = await fetch("https://api.samuelthorson.com/unsubscribe", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

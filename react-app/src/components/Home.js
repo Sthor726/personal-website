@@ -17,7 +17,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch("https://api.samuelthorson.com:2000/subscribe", {
+      const response = await fetch("https://api.samuelthorson.com/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -66,4 +66,6 @@ app.delete('/unsubscribe', (req, res) => {
 // Start server
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Newsletter backend running at http://0.0.0.0:${PORT}`);
+  }).on('error', (err) => {
+    console.error("Server Error:", err);
   });
