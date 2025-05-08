@@ -10,7 +10,7 @@ function About() {
         <h2 class="font-sans text-4xl font-bold pt-1 mt-1 mb-30 mr-auto w-fit text-white h-auto text-left">
           About
         </h2>
-        <p class=" text-left font-sans font-bold text-5xl pt-20 mt-20 mr-auto w-fit text-white h-auto">
+        <p class=" text-left font-sans font-bold text-4xl pt-20 mt-20 mr-auto w-fit text-white h-auto">
           This website is a react application made using Javascript and tailwind
           CSS. <br /> <br />
           Hosted on AWS.
