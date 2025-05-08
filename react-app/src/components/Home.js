@@ -17,7 +17,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_IP}/subscribe`, {
+      const response = await fetch("https://api.samuelthorson.com:2000/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
