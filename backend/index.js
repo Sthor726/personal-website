@@ -8,7 +8,9 @@ require('dotenv').config();
 const app = express();
 const PORT = 2000;
 
-app.use(cors());
+app.use(cors({
+  origin: "https://www.samuelthorson.com"
+}));
 app.use(bodyParser.json());
 
 const db = new sqlite3.Database('./newsletter.db');
