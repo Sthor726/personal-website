@@ -91,7 +91,7 @@ function Resume() {
             <li>
               <span className="font-semibold text-lg">Teaching Assistant, CSCI 1133 - Introduction to Computing and Programming Concepts</span>
               <br />
-              <span className="text-gray-700">September 2024 - Present</span>
+              <span className="text-gray-700">January 2025 - May 2025</span>
               <ul className="pl-8 list-disc">
                 <li className="text-base">Led lab sessions to assist students with basic programming concepts in Python.</li>
                 <li className="text-base">Held weekly office hours to clarify homework and lab concepts.</li>
