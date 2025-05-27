@@ -16,7 +16,7 @@ function Error() {
             </p>
             <Link to="/" class="group">
                 <button class=" border-2 border-white text-white h-16 rounded-full py-3 px-6 m-auto group-hover:bg-white group-hover:text-slate-800 transition-all ease-out duration-300">
-                Click here!
+                Home
                 </button>
             </Link>
         </div>
