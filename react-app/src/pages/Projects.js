@@ -38,7 +38,7 @@ function Projects() {
           <h3 className="font-bold text-xl mt-6">Technical Details</h3>
           <ul className="pl-8 text-base">
             <li><strong>Raspberry Pi</strong>: The project runs on a Raspberry Pi, utilizing the GPIO pins to interface with the 2-inch LCD screen.</li>
-            <li><strong>Python</strong>: The application is written in Python and uses the google-auth andgoogle-api-python-client libraries to authenticate <br></br>with the Google Calendar API and retrieve event data.</li>
+            <li><strong>Python</strong>: The application is written in Python and uses the google-auth and google-api-python-client libraries to authenticate <br></br>with the Google Calendar API and retrieve event data.</li>
             <li><strong>Display Library</strong>: The project uses the Waveshare LCD library to interface with the 2-inch display. 
             The PIL (Pillow) library is used to create and manage the images displayed on the screen.</li>
           </ul>
