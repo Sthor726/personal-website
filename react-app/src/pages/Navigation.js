@@ -1,37 +1,30 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Home, FileText, FolderOpen, Info } from "lucide-react";
 
 function Navigation() {
   return (
-    <div
+    <nav
       id="navbar"
-      class="container min-w-full flex flex-row gap-5 mx-0 mt-4 pb-4 items-center justify-between"
+      className="w-full flex items-center justify-between px-6 py-4 bg-emerald-900"
     >
-      <NavLink to="/">
-        <h2 class="font-sans font-normal text-white ml-5 mr-auto hover:underline">
-          Home
-        </h2>
+      <NavLink to="/" className="flex items-center gap-2 hover:underline text-cream">
+        <Home className="w-5 h-5" />
+        <span className="font-sans font-medium">Home</span>
       </NavLink>
-      <div class="flex items-center gap-5">
-        <NavLink to="Resume">
-          <h2 class="font-sans font-normal text-white float-left hover:underline">
-            Resume
-          </h2>
+
+      <div className="flex items-center gap-6">
+        <NavLink to="/resume" className="flex items-center gap-2 hover:underline text-cream">
+          <FileText className="w-5 h-5" />
+          <span className="font-sans font-medium">Resume</span>
         </NavLink>
-        <h2 class="font-sans font-normal text-white"> | </h2>
-        <NavLink to="Projects">
-          <h2 class="font-sans font-normal text-white float-left hover:underline">
-            Projects
-          </h2>
-        </NavLink>
-        <h2 class="font-sans font-normal text-white"> | </h2>
-        <NavLink to="About">
-          <h2 class="font-sans font-normal mr-4 text-white hover:underline">
-            About this site
-          </h2>
+
+        <NavLink to="/projects" className="flex items-center gap-2 hover:underline text-cream">
+          <FolderOpen className="w-5 h-5" />
+          <span className="font-sans font-medium">Projects</span>
         </NavLink>
       </div>
-    </div>
+    </nav>
   );
 }
 
