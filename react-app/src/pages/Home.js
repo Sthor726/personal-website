@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import FadeInSection from "../components/FadeInSection";
 
 
 
@@ -36,21 +37,23 @@ function Home() {
 
   return (
     <div id="home" class="min-h-screen h-fit overflow-x-hidden">
-      <div
-        id="title"
-        class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end">
-        <h2 class="font-sans text-2xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          Hello, I'm
-          <br />
-        </h2>
-        <h1 class="font-sans text-7xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
-          Samuel Thorson <br />
-        </h1>
-        <h2 class="font-sans text-3xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
-          Software Engineer <br /> interested in embedded systems, web development, and cybersecurity.
-          <br />
-        </h2>
-      </div>
+      <FadeInSection>
+        <div
+          id="title"
+          class="container flex-col pt-10 mt-10 ml-4 md:ml-32 mr-auto w-fit justify-end">
+          <h2 class="font-sans text-2xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
+            Hello, I'm
+            <br />
+          </h2>
+          <h1 class="font-sans text-7xl font-bold pt-1 mt-1 mr-auto w-fit text-white h-auto text-left">
+            Samuel Thorson <br />
+          </h1>
+          <h2 class="font-sans text-3xl font-bold pt-10 mt-10 mr-auto w-fit text-white h-auto text-left">
+            Software Engineer <br /> interested in embedded systems, web development, and cybersecurity.
+            <br />
+          </h2>
+        </div>
+      </FadeInSection>
       <div
         id="description"
         class="mt-64 w-screen h-[600px] shadow-inner shadow-gray-400 bg-white"
