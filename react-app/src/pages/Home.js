@@ -114,7 +114,7 @@ function Home() {
             type="submit"
             className="mt-10 ml-4 p-3 bg-emerald-900
                      text-cream rounded-lg w-32 flex justify-center items-center transition-all ease-out duration-500 group
-                     hover:bg-cream hover:text-transparent hover:bg-clip-text hover:text-emerald-900 border-stone-700 border-2 shadow-cartoon"
+                     hover:bg-cream hover:text-emerald-900 hover:bg-clip-text border-stone-700 border-2 shadow-cartoon"
           >
             <span className="font-sans font-bold text-xl">Subscribe!</span> 
           </button>
