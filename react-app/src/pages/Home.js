@@ -85,7 +85,7 @@ function Home() {
           </button>
         </Link>
       </div>
-      <div
+      {/* <div
         id="title"
         class="pt-34 w-screen h-[700px] shadow-inner shadow-gray-400 bg-cream"
         style={{
@@ -130,7 +130,7 @@ function Home() {
             tired of getting emails? click here to unsubscribe.
           </span>
          </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 }
