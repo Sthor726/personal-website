@@ -49,7 +49,7 @@ function Projects() {
         <h3
           className="font-sans font-bold text-4xl md:ml-32 ml-4 md:mr-16 mt-32 w-fit text-transparent bg-clip-text bg-emerald-900"
         >
-        Portfolio Website - www.samuelthorson.com
+        Portfolio Website
         </h3>
         <div className="text-left md:ml-36 md:mr-16 ml-4 mt-16 text-gray-700">
           <p className="text-base">
