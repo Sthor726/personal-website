@@ -3,17 +3,17 @@ import React from "react";
 function Projects() {
   return (
     <div id="projects" 
-    className=" min-h-screen h-fit overflow-x-hidden">
+    className=" min-h-screen h-fit overflow-x-hidden ">
       <div
         id="description"
-        className="mt-6 w-screen h-auto shadow-inner shadow-gray-400 bg-stone-100 pb-32"
+        className="mt-6  w-screen h-auto shadow-inner shadow-gray-400 bg-stone-100 pb-32"
         style={{
           backgroundColor: "#fcf8eb",
           backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23acd1ed' fill-opacity='0.2'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E")`,
           backgroundRepeat: "repeat",
           }}
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-emerald-900
+        <h2 className="font-sans text-6xl ml-4 font-bold pt-32 md:ml-32 md:mr-16 w-fit p-1 h-auto text-transparent bg-clip-text bg-emerald-900
 ">
           Projects
         </h2>
@@ -21,7 +21,7 @@ function Projects() {
 ">
           Raspberry Pi Smart Clock
         </h3>
-        <div className="text-left md:ml-36 md:mr-16 mt-16 text-gray-700">
+        <div className="text-left md:ml-36 ml-4 md:mr-16 mt-16 text-gray-700">
           <p className="text-base">
             This project leverages a Raspberry Pi and a 2-inch LCD screen to create a display that shows upcoming events from my Google Calendar. The display shows the current time and date, information about scheduled events on my Google Calendar, and the daily weather forecast
           </p>
@@ -47,11 +47,11 @@ function Projects() {
           </p>
         </div>
         <h3
-          className="font-sans font-bold text-4xl md:ml-32 md:mr-16 mt-32 w-fit text-transparent bg-clip-text bg-emerald-900"
+          className="font-sans font-bold text-4xl md:ml-32 ml-4 md:mr-16 mt-32 w-fit text-transparent bg-clip-text bg-emerald-900"
         >
         Portfolio Website - www.samuelthorson.com
         </h3>
-        <div className="text-left md:ml-36 md:mr-16 mt-16 text-gray-700">
+        <div className="text-left md:ml-36 md:mr-16 ml-4 mt-16 text-gray-700">
           <p className="text-base">
             <a href="https://www.samuelthorson.com" target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:underline">
               www.samuelthorson.com

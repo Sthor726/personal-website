@@ -12,11 +12,11 @@ function Resume() {
           backgroundRepeat: "repeat",
         }}
       >
-        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-emerald-900
+        <h2 className="font-sans text-6xl font-bold pt-32 md:ml-32 ml-4 mr-auto w-fit p-1 h-auto text-transparent bg-clip-text bg-emerald-900
 ">
           Education
         </h2>
-        <ul className="list-none text-left md:ml-36 mt-32">
+        <ul className="list-none text-left md:ml-36 mt-32 ml-4">
           <li className="mb-6">
             <span className="font-bold text-xl">Bachelor of Science</span>
             <br />
@@ -34,7 +34,7 @@ function Resume() {
 
       <div
         id="projects"
-        className="container flex-col pt-10 mt-10 md:ml-32 mr-auto h-auto w-fit justify-end"
+        className="container ml-4 flex-col pt-10 mt-10 md:ml-32 mr-auto h-auto w-fit justify-end"
       >
         <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-cream h-auto text-left">
           Projects
@@ -95,7 +95,7 @@ function Resume() {
         <ul className="list-none text-left md:ml-36 mt-32">
 
         <li className="mb-6">
-          <span className="font-bold text-xl">University of Minnesota</span>
+          <span className="font-bold text-xl ml-4">University of Minnesota</span>
           <br />
           <ul className="pl-6 mt-2 space-y-4">
             <li>
@@ -135,41 +135,15 @@ function Resume() {
         </li>
 
           <li className="mb-6">
-            <span className="font-bold text-xl">Caribou Coffee - Barista</span>
+            <span className="font-bold text-xl ml-4">Caribou Coffee - Barista</span>
             <br />
-            <span className="text-gray-700">May 2023 - September 2024</span>
+            <span className="text-gray-700 ml-4">May 2023 - September 2024</span>
             <ul className="pl-8">
               <li className="text-base">
                 Worked in a team of 5-10 to prepare a variety of beverages in a fast paced environment.
               </li>
               <li className="text-base">
                 Maintained a safe and healthy work environment by following organization standards and sanitation regulations.
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div
-        id="extracurricular"
-        className="container flex-col h-auto pb-32 pt-10 mt-10 md:ml-32 mr-auto w-fit justify-end"
-      >
-        <h1 className="font-sans text-6xl font-bold pt-1 mt-1 mr-auto w-fit text-cream h-auto text-left">
-          Extracurricular Experience
-        </h1>
-        <ul className="list-none text-left mt-32">
-          <li className="mb-6">
-            <span className="font-bold text-2xl text-cream">
-              Science and Engineering Student Board - Member
-            </span>
-            <br />
-            <span className="text-gray-200">September 2022 - May 2024</span>
-            <ul className="pl-8">
-              <li className="text-base text-cream">
-                Worked in a group of ~10 students to organize student events to help science and engineering students get involved on campus.
-              </li>
-              <li className="text-base text-cream">
-                Organized the “Freezin’ for a Reason 5K” in 2022 & 2023 with charity Be The Match.
               </li>
             </ul>
           </li>
