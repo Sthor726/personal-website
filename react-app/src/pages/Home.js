@@ -49,7 +49,7 @@ function Home() {
             Samuel Thorson <br />
           </h1>
           <h2 class="font-sans text-3xl font-semibold pt-10 mt-10 mr-auto w-fit text-cream h-auto text-left italic">
-            Software Engineer focused on web, embedded systems, and cybersecurity.
+            Software Engineer focused on UI design and cybersecurity.
             <br />
           </h2>
         </div>

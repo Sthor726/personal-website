@@ -17,6 +17,36 @@ function Projects() {
 ">
           Projects
         </h2>
+        <h3 className="font-sans font-bold text-4xl md:ml-32 md:mr-16 mt-24 w-fit text-transparent bg-clip-text bg-emerald-900">
+          Cliseo – SEO Optimization CLI
+        </h3>
+        <div className="text-left md:ml-36 ml-4 md:mr-16 mt-16 text-gray-700">
+          <p className="text-base">
+            Cliseo is a powerful command-line tool that simplifies SEO optimization for JavaScript/TypeScript projects, with a primary focus on React and Next.js applications.
+          </p>
+          
+          <h3 className="font-bold text-xl mt-6">Key Features</h3>
+          <ul className="pl-8 text-base">
+            <li><strong>One-Command Optimization</strong>: Scans your project and injects SEO improvements in seconds with simple commands like <code>cliseo scan</code> and <code>cliseo optimize</code>.</li>
+            <li><strong>React & Next.js Support</strong>: Designed for modern frontend frameworks, with built-in support for JSX/TSX parsing and static site structures.</li>
+            <li><strong>Customizable Output</strong>: Offers verbose logs and JSON output modes for scripting or CI integration.</li>
+          </ul>
+
+          <h3 className="font-bold text-xl mt-6">Technical Details</h3>
+          <ul className="pl-8 text-base">
+            <li><strong>Node.js / TypeScript</strong>: Built with a TypeScript codebase for safety, clarity, and fast iteration.</li>
+            <li><strong>AST Parsing</strong>: Uses Babel to parse and manipulate JSX/TSX files and inject optimizations directly into React components.</li>
+            <li><strong>Cross-Platform CLI</strong>: Works seamlessly across macOS, Windows, and Linux environments.</li>
+            <li><strong>Open Source</strong>: Contributions welcome! Designed with extensibility in mind for future integrations (e.g. Google Search Console, GitHub PR bots).</li>
+          </ul>
+
+          <p className="text-base mt-6">
+            Try it out or contribute on GitHub: <a href="https://github.com/cliseo/cliseo" className="text-emerald-700 hover:underline">https://github.com/cliseo/cliseo</a>
+            <br />
+            Learn more at <a href="https://cliseo.com" className="text-emerald-700 hover:underline">https://cliseo.com</a>
+          </p>
+        </div>
+
         <h3 className="font-sans font-bold text-4xl md:ml-32 md:mr-16 mt-24 w-fit text-transparent bg-clip-text bg-emerald-900
 ">
           Raspberry Pi Smart Clock

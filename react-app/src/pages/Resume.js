@@ -41,27 +41,38 @@ function Resume() {
         </h1>
         <ul className="list-none text-left mt-32">
           <li className="mb-6">
-            <span className="font-bold text-2xl text-cream">
-              Personal Website - www.samuelthorson.com
-            </span>
+            <a
+              href="https://cliseo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-2xl text-cream hover:underline"
+            >
+              Cliseo – SEO Optimization CLI
+            </a>
             <br />
-            <span className="text-gray-200">January 2024 - Current</span>
+            <span className="text-gray-200">May 2025 – Present</span>
             <ul className="pl-8">
               <li className="text-base text-cream">
-              Developed a fully responsive personal portfolio website using React.js and Tailwind CSS to showcase projects and
-              career updates.
-              </li>
-              <li className="text-base text-cream">Built a Node.js and Express backend with an integrated SQLite database to manage newsletter subscriptions.
+                Built a CLI tool that scans React/Next.js projects for SEO issues and automatically injects key optimizations.
               </li>
               <li className="text-base text-cream">
-              Deployed the frontend via AWS Amplify and hosted the backend on an EC2 instance for scalable and reliable access.
+                Designed a clean developer UX with easy-to-use commands and JSON output support.
+              </li>
+              <li className="text-base text-cream">
+                Reduced SEO setup time from hours to seconds for modern web apps.
               </li>
             </ul>
           </li>
+
           <li className="mb-6">
-            <span className="font-bold text-2xl text-cream">
+            <a
+              href="https://github.com/Sthor726/Raspberry-Pi-Smart-Clock"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-2xl text-cream hover:underline"
+            >
               Raspberry Pi Google Calendar Display
-            </span>
+            </a>
             <br />
             <span className="text-gray-200">March 2025</span>
             <ul className="pl-8">
@@ -93,6 +104,20 @@ function Resume() {
           Work Experience
         </h2>
         <ul className="list-none text-left md:ml-36 mt-32">
+
+          <li className="mb-6">
+            <span className="font-bold text-xl ml-4">Expedium Consulting LLC - Software Engineer</span>
+            <br />
+            <span className="text-gray-700 ml-4">June 2025 - Current</span>
+            <ul className="pl-8">
+              <li className="text-base">
+                Developed and maintained modern, responsive user interfaces for web and desktop applications using Rust.
+              </li>
+              <li className="text-base">
+                Collaborated with a product and design team to translate mockups into clean, accessible UI components.
+              </li>
+            </ul>
+          </li>
 
         <li className="mb-6">
           <span className="font-bold text-xl ml-4">University of Minnesota</span>
@@ -134,19 +159,7 @@ function Resume() {
           </ul>
         </li>
 
-          <li className="mb-6">
-            <span className="font-bold text-xl ml-4">Caribou Coffee - Barista</span>
-            <br />
-            <span className="text-gray-700 ml-4">May 2023 - September 2024</span>
-            <ul className="pl-8">
-              <li className="text-base">
-                Worked in a team of 5-10 to prepare a variety of beverages in a fast paced environment.
-              </li>
-              <li className="text-base">
-                Maintained a safe and healthy work environment by following organization standards and sanitation regulations.
-              </li>
-            </ul>
-          </li>
+          
         </ul>
       </div>
 
