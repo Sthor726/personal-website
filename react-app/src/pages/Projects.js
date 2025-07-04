@@ -37,7 +37,6 @@ function Projects() {
             <li><strong>Node.js / TypeScript</strong>: Built with a TypeScript codebase for safety, clarity, and fast iteration.</li>
             <li><strong>AST Parsing</strong>: Uses Babel to parse and manipulate JSX/TSX files and inject optimizations directly into React components.</li>
             <li><strong>Cross-Platform CLI</strong>: Works seamlessly across macOS, Windows, and Linux environments.</li>
-            <li><strong>Open Source</strong>: Contributions welcome! Designed with extensibility in mind for future integrations (e.g. Google Search Console, GitHub PR bots).</li>
           </ul>
 
           <p className="text-base mt-6">
