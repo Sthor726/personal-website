@@ -29,14 +29,6 @@ function Projects() {
           <ul className="pl-8 text-base">
             <li><strong>One-Command Optimization</strong>: Scans your project and injects SEO improvements in seconds with simple commands like <code>cliseo scan</code> and <code>cliseo optimize</code>.</li>
             <li><strong>React & Next.js Support</strong>: Designed for modern frontend frameworks, with built-in support for JSX/TSX parsing and static site structures.</li>
-            <li><strong>Customizable Output</strong>: Offers verbose logs and JSON output modes for scripting or CI integration.</li>
-          </ul>
-
-          <h3 className="font-bold text-xl mt-6">Technical Details</h3>
-          <ul className="pl-8 text-base">
-            <li><strong>Node.js / TypeScript</strong>: Built with a TypeScript codebase for safety, clarity, and fast iteration.</li>
-            <li><strong>AST Parsing</strong>: Uses Babel to parse and manipulate JSX/TSX files and inject optimizations directly into React components.</li>
-            <li><strong>Cross-Platform CLI</strong>: Works seamlessly across macOS, Windows, and Linux environments.</li>
           </ul>
 
           <p className="text-base mt-6">
@@ -75,50 +67,6 @@ function Projects() {
             The source code is available at <a href="https://github.com/Sthor726/Raspberry-Pi-Smart-Clock" className="text-emerald-700 hover:underline">https://github.com/Sthor726/Raspberry-Pi-Smart-Clock</a>
           </p>
         </div>
-        <h3
-          className="font-sans font-bold text-4xl md:ml-32 ml-4 md:mr-16 mt-32 w-fit text-transparent bg-clip-text bg-emerald-900"
-        >
-        Portfolio Website
-        </h3>
-        <div className="text-left md:ml-36 md:mr-16 ml-4 mt-16 text-gray-700">
-          <p className="text-base">
-            <a href="https://www.samuelthorson.com" target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:underline">
-              www.samuelthorson.com
-            </a>{" "}
-            is a fully responsive React web application that functions as a digital portfolio and newsletter subscription service. Visitors can explore my professional work, learn about my skills and projects, and sign up for updates on my career.
-          </p>
-          <h3 className="font-bold text-xl mt-6">Key Features</h3>
-          <ul className="pl-8 text-base">
-            <li>
-              <strong>Newsletter Subscription</strong>: The site allows users to subscribe by submitting their email addresses, which are stored in an SQL database.
-            </li>
-            <li>
-              <strong>Automated Email Delivery</strong>: The application automatically sends newsletters and career updates to subscribers via the SendGrid email API.
-            </li>
-            <li>
-              <strong>Responsive Design</strong>: The frontend is fully responsive, offering an optimized user experience across devices of all sizes.
-            </li>
-          </ul>
-          <h3 className="font-bold text-xl mt-6">Tech Stack</h3>
-          <ul className="pl-8 text-base">
-            <li>
-              <strong>Frontend</strong>: Built with React.js and styled using Tailwind CSS for a clean, modern interface.
-            </li>
-            <li>
-              <strong>Backend</strong>: Powered by Express and Node.js to handle API requests and email delivery.
-            </li>
-            <li>
-              <strong>Database</strong>: Uses SQLite to store user emails and subscription data efficiently.
-            </li>
-            <li>
-              <strong>Hosting & Infrastructure</strong>: Deployed on AWS Amplify and EC2 for scalable, reliable performance.
-            </li>
-          </ul>
-           <p className="text-base mt-6">
-            The source code is available at <a href="https://github.com/Sthor726/personal-website" className="text-emerald-700 hover:underline">https://github.com/Sthor726/personal-website</a>
-          </p>
-        </div>
-
       </div>
     </div>
   );

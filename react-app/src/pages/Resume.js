@@ -111,10 +111,10 @@ function Resume() {
             <span className="text-gray-700 ml-4">June 2025 - Current</span>
             <ul className="pl-8">
               <li className="text-base">
-                Developed and maintained modern, responsive user interfaces for web and desktop applications using Rust.
+                Developed and maintained graphical user interfaces for web and desktop applications using Rust.
               </li>
               <li className="text-base">
-                Collaborated with a product and design team to translate mockups into clean, accessible UI components.
+                Built and owned full-stack features with PostgreSQL and GraphQL for utility control and monitoring systems (SCADA)
               </li>
             </ul>
           </li>
