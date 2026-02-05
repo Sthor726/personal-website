@@ -106,7 +106,7 @@ function Resume() {
         <ul className="list-none text-left md:ml-36 mt-32">
 
           <li className="mb-6">
-            <span className="font-bold text-xl ml-4">Expedium Consulting LLC - Software Engineer</span>
+            <span className="font-bold text-xl ml-4">Renovo Automation - Software Engineer</span>
             <br />
             <span className="text-gray-700 ml-4">June 2025 - Current</span>
             <ul className="pl-8">
