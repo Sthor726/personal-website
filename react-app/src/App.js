@@ -5,8 +5,8 @@ import Resume from "./pages/Resume.js";
 import Projects from "./pages/Projects.js";
 import Error from "./pages/Error.js";
 import Navigation from "./pages/Navigation.js";
-import Unsubscribe from "./pages/Unsubscribe.js";
 import Footer from "./pages/Footer.js";
+import Games from "./pages/Games.js";
 import ScrollToTop from "./ScrollToTop.js";
 
 
@@ -22,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
+                    <Route path="/games" element={<Games />} />
           {/* <Route path="/unsubscribe" element={<Unsubscribe />} /> */}
           <Route path="*" element={<Error />} />
         </Routes>

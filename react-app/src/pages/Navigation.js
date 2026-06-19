@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Home, FileText, FolderOpen, Info } from "lucide-react";
+import { Home, FileText, FolderOpen, Gamepad2 } from "lucide-react";
 
 function Navigation() {
   return (
@@ -17,6 +17,11 @@ function Navigation() {
         <NavLink to="/resume" className="flex items-center gap-2 hover:underline text-cream">
           <FileText className="w-5 h-5" />
           <span className="font-sans font-medium">Resume</span>
+        </NavLink>
+
+        <NavLink to="/games" className="flex items-center gap-2 hover:underline text-cream">
+          <Gamepad2 className="w-5 h-5" />
+          <span className="font-sans font-medium">Games</span>
         </NavLink>
 
         <NavLink to="/projects" className="flex items-center gap-2 hover:underline text-cream">
