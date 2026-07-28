@@ -24,10 +24,10 @@ function Navigation() {
           <span className="font-sans font-medium">Games</span>
         </NavLink>
 
-        <NavLink to="/projects" className="flex items-center gap-2 hover:underline text-cream">
+        {/* <NavLink to="/projects" className="flex items-center gap-2 hover:underline text-cream">
           <FolderOpen className="w-5 h-5" />
           <span className="font-sans font-medium">Projects</span>
-        </NavLink>
+        </NavLink> */}
       </div>
     </nav>
   );

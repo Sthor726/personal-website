@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         <h2 className="font-bold text-white mb-1">What we store locally</h2>
         <p>
           Your progress, streak, and settings are saved directly on your
-          device using PlayerPrefs. This data never leaves your device.
+          device. This data is never sent to our server.
         </p>
       </div>
 
